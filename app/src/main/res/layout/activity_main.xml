@@ -10,36 +10,59 @@
 
     <TextView
         android:id="@+id/detail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Hello World!"
+        android:textAlignment="center"
+        android:layout_margin="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#c5c5c5"/>
 
     <TextView
         android:id="@+id/status"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Hello World!"
+        android:textAlignment="center"
+        android:layout_margin="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#c5c5c5"/>
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        >
 
 
     </com.google.android.gms.common.SignInButton>
 
     <Button
         android:id="@+id/sign_out_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="sign out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
         />
 
     <Button
         android:id="@+id/disconnect_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
         />
 
 

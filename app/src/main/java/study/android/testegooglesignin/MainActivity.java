@@ -83,6 +83,11 @@ public class MainActivity extends AppCompatActivity implements
                 if (user != null) {
                     // User is signed in
                     Log.d(TAG, "onAuthStateChanged:signed_in:" + user.getUid());
+                    Log.d("DEBUG", "===================================");
+
+
+
+
                 } else {
                     // User is signed out
                     Log.d(TAG, "onAuthStateChanged:signed_out");
@@ -136,7 +141,7 @@ public class MainActivity extends AppCompatActivity implements
     // [END onactivityresult]
 
     // [START auth_with_google]
-    private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
+    private void firebaseAuthWithGoogle(final GoogleSignInAccount acct) {
         Log.d(TAG, "firebaseAuthWithGoogle:" + acct.getId());
         // [START_EXCLUDE silent]
         //showProgressDialog();
@@ -148,14 +153,18 @@ public class MainActivity extends AppCompatActivity implements
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         Log.d(TAG, "signInWithCredential:onComplete:" + task.isSuccessful());
-
+                        Log.d("DEBUG", "---------------------------------");
+                        Log.d("DEBUG", acct.getDisplayName());
                         // If sign in fails, display a message to the user. If sign in succeeds
                         // the auth state listener will be notified and logic to handle the
                         // signed in user can be handled in the listener.
                         if (!task.isSuccessful()) {
                             Log.w(TAG, "signInWithCredential", task.getException());
                             Toast.makeText(MainActivity.this, "Authentication failed.",
-                                    Toast.LENGTH_SHORT).show();
+                                    Toast.LENGTH_LONG).show();
+
+
+
                         }
                         // [START_EXCLUDE]
                         //hideProgressDialog();
