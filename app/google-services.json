@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "674069298678",
+    "firebase_url": "https://testesignin-682bc.firebaseio.com",
+    "project_id": "testesignin-682bc",
+    "storage_bucket": "testesignin-682bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674069298678:android:11bd6bfa1c653dbc",
+        "android_client_info": {
+          "package_name": "study.android.testegooglesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674069298678-o5h6p4mnlc120pj7elducv9gujbol1t0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "study.android.testegooglesignin",
+            "certificate_hash": "176D6F4D2E15968A01B2E390BB8418DC112E645D"
+          }
+        },
+        {
+          "client_id": "674069298678-p60ej9e2g9q05ntth2jqunujenfdjvdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhr-t9DDbh_tlE7ve-NxpkNW5YAcruxlw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674069298678-p60ej9e2g9q05ntth2jqunujenfdjvdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
